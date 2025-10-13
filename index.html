@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Notebook</title>
+    <title>The Notebook - Diário de uma Paixão</title>
     <link rel="stylesheet" href="styles.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
@@ -11,7 +11,7 @@
 <body>
     <!-- Navigation Bar -->
     <header class="navbar">
-        <div class="logo">[Nome]</div>
+        <div class="logo">The Notebook</div>
         <nav class="menu">
             <a href="#sobre">Sobre</a>
             <a href="#galeria">Galeria</a>
@@ -24,44 +24,80 @@
         <!-- Hero Section -->
         <section class="hero">
             <div class="hero-content">
-                <h1>[Título]</h1>
-                <p class="tagline">[Tagline/Slogan]</p>
+                <h1>The Notebook</h1>
+                <p class="tagline">Por trás de cada grande amor, há uma grande história.</p>
+                <a href="#sobre" class="cta-button">Descubra Mais</a>
             </div>
         </section>
 
-        <!-- Sobre -->
+        <!-- Sobre (exata: flex para texto + imagem, fundo alternado) -->
         <section id="sobre" class="sobre-section">
-            <h2>Sobre</h2>
+            <h2>Sobre o Filme</h2>
             <div class="sobre-content">
-                <!-- Texto + imagem em flexbox -->
+                <div class="sinopse">
+                    <p>The Notebook, ou Diário de uma Paixão, é um clássico do cinema romântico que cativa corações há décadas. A história se passa na década de 1940, na Carolina do Norte, onde Noah Calhoun, um jovem trabalhador e apaixonado, conhece Allie Hamilton, uma garota de família rica e refinada. O que começa como um verão perfeito de amor intenso e proibido é interrompido pelas diferenças sociais e pela Segunda Guerra Mundial. Anos depois, Allie está noiva de um homem bem-sucedido, mas o destino os reúne novamente. Enquanto Noah luta para reconquistá-la, Allie é atormentada por memórias de seu primeiro amor verdadeiro.</p>
+                    <p>O filme alterna entre o presente, onde um idoso lê a história de um caderno para uma mulher com Alzheimer, e o passado vibrante dos protagonistas jovens. Essa narrativa dual explora temas profundos como amor eterno, perda de memória, lealdade e o poder das escolhas. Com atuações memoráveis e cenas icônicas, como o beijo na chuva e o passeio de barco entre cisnes, The Notebook se tornou um símbolo de romance atemporal. Dirigido por Nick Cassavetes, o filme adapta o best-seller de Nicholas Sparks, lançado em 2004, e continua inspirando gerações com sua mensagem de que o verdadeiro amor transcende o tempo e as circunstâncias. (Aproximadamente 220 palavras)</p>
+                </div>
+                <img src="images/poster.jpg" alt="Pôster de The Notebook" class="poster-img">
+            </div>
+            <div class="info-tecnica">
+                <h3>Informações Técnicas</h3>
+                <ul>
+                    <li><strong>Diretor:</strong> Nick Cassavetes</li>
+                    <li><strong>Ano:</strong> 2004</li>
+                    <li><strong>Duração:</strong> 124 minutos</li>
+                    <li><strong>Género:</strong> Romance / Drama</li>
+                </ul>
             </div>
         </section>
 
-        <!-- Cards (Elenco/Membros) -->
+        <!-- Galeria -->
+        <section id="galeria" class="galeria-section">
+            <h2>Galeria de Cenas</h2>
+            <div class="galeria-container">
+                <img src="images/galeria1.jpg" alt="Cena do beijo na chuva" class="galeria-img">
+                <img src="images/galeria2.jpg" alt="Cena no lago com cisnes" class="galeria-img">
+                <img src="images/galeria3.jpg" alt="Cena dos idosos lendo o caderno" class="galeria-img">
+                <img src="images/galeria4.jpg" alt="Cena romântica no algodoeiro" class="galeria-img">
+            </div>
+        </section>
+
+        <!-- Cards (Elenco) -->
         <section id="elenco" class="cards-section">
-            <h2>Elenco / Membros</h2>
+            <h2>Elenco Principal</h2>
             <div class="cards-container">
                 <div class="card">
-                    <!-- Card 1 -->
+                    <img src="images/elenco1.jpg" alt="Ryan Gosling como Noah">
+                    <h3>Ryan Gosling</h3>
+                    <p>Noah Calhoun (jovem)</p>
+                    <p>O apaixonado e determinado jovem que luta pelo amor de sua vida.</p>
                 </div>
                 <div class="card">
-                    <!-- Card 2 -->
+                    <img src="images/elenco2.jpg" alt="Rachel McAdams como Allie">
+                    <h3>Rachel McAdams</h3>
+                    <p>Allie Hamilton</p>
+                    <p>A garota rica dividida entre o dever social e o amor verdadeiro.</p>
                 </div>
                 <div class="card">
-                    <!-- Card 3 -->
-                </div>
-            </div>
-        </section>
-    </main>
+                    <img src="images/elenco3.jpg" alt="James Garner como Noah idoso">
+                    <h3>James Garner</h3>
+                    <p>Noah Calhoun (idoso)</p>
+                    <p>O narrador idoso que revive memórias para reacender o amor perdido.</p>
+                </div>    
+               <div class="card">
+                    <img src="images/elenco4.jpg" alt="Gena Rowlands como Allie idosa">
+                    <h4>Gena Rowlands</h4>
+                    <p>Allie Hamilton (idosa)</p>
+                    <p>A senhora idosa que tem Alzheimer e que está a ouvir a narrativa</p>
+                </div> 
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer id="contacto" class="footer">
         <div class="footer-links">
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">IMDb / Spotify</a>
+            <a href="#https://www.facebook.com/TheNotebookMovie/">Facebook</a>
+            <a href="#https://www.imdb.com/title/tt0332280/">IMDb</a>
         </div>
-        <p>&copy; 2025 - Exercício Académico</p>
+        <p>&copy; 2025 - Exercício Académico | The Notebook</p>
     </footer>
 </body>
 </html>
