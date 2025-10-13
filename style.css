@@ -1,5 +1,5 @@
 body {
-   font-family: "BBH Sans Bogle", sans-serif;
+   font-family: "BBH Sans BAGLE", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 400;
   font-style: normal
 }
@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-    font-family: 'BBH Sans Hegarty';
+    font-family: 'BBH Sans Bogle';
     font-size: 1.5rem;
     font-weight: 700;
     color: #ff7b00; /* Azul acento exato */
@@ -58,7 +58,7 @@ body {
 }
 
 .hero h1 {
-    font-family: 'BBH Sans Hegarty';
+    font-family: 'BBH Sans Bogle';
     font-size: 3rem;
     font-weight: 700;
     color: #ffffff;
@@ -97,7 +97,7 @@ body {
 }
 
 .sobre-section h2 {
-    font-family: 'BBH Sans Hegarty';
+    font-family: 'BBH Sans Bogle';
     font-size: 2.5rem;
     text-align: center;
     color: hsl(36, 100%, 50%);
@@ -142,7 +142,7 @@ body {
 }
 
 .info-tecnica h3 {
-    font-family: 'BBH Sans Hegarty';
+    font-family: 'BBH Sans bagle';
     color: hsl(36, 100%, 50%);
     margin-bottom: 1rem;
 }
@@ -167,7 +167,7 @@ body {
 }
 
 .galeria-section h2 {
-    font-family: 'BBH Sans Hegarty';
+    font-family: 'BBH Sans bogle';
     font-size: 2.5rem;
     color: hsl(36, 100%, 50%);
     margin-bottom: 2rem;
@@ -204,7 +204,7 @@ body {
 }
 
 .cards-section h2 {
-    font-family: 'BBH Sans Hegarty';
+    font-family: 'BBH Sans bogle';
     font-size: 2.5rem;
     color: hsl(36, 100%, 50%);
     margin-bottom: 2rem;
@@ -241,7 +241,7 @@ body {
 }
 
 .card h3 {
-    font-family: 'BBH Sans Hegarty';
+    font-family: 'BBH Sans bogle';
     color: hsl(36, 100%, 50%);
     margin-bottom: 0.5rem;
 }
@@ -252,7 +252,7 @@ body {
 }
 
 .card h4 {
-    font-family: 'BBH Sans Hegarty';
+    font-family: 'BBH Sans bogle';
     color: hsl(36, 100%, 50%);
     margin-bottom: 0.5rem;
 }
