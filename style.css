@@ -1,15 +1,7 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.5;
-    color: #ffffff;
-    background-color: #000000; /* Preto exato */
+    font-family: "BBH Sans Hegarty";
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* === NAVIGATION BAR === */
@@ -26,7 +18,7 @@ body {
 }
 
 .logo {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'BBH Sans Hegarty';
     font-size: 1.5rem;
     font-weight: 700;
     color: #007bff; /* Azul acento exato */
@@ -53,7 +45,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 400px;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero.jpg');
     background-size: cover;
     background-position: center;
@@ -66,7 +58,7 @@ body {
 }
 
 .hero h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'BBH Sans Hegarty';
     font-size: 3rem;
     font-weight: 700;
     color: #ffffff;
@@ -105,7 +97,7 @@ body {
 }
 
 .sobre-section h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'BBH Sans Hegarty';
     font-size: 2.5rem;
     text-align: center;
     color: #007bff;
@@ -150,7 +142,7 @@ body {
 }
 
 .info-tecnica h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'BBH Sans Hegarty';
     color: #007bff;
     margin-bottom: 1rem;
 }
@@ -175,7 +167,7 @@ body {
 }
 
 .galeria-section h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'BBH Sans Hegarty';
     font-size: 2.5rem;
     color: #007bff;
     margin-bottom: 2rem;
@@ -212,7 +204,7 @@ body {
 }
 
 .cards-section h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'BBH Sans Hegarty';
     font-size: 2.5rem;
     color: #007bff;
     margin-bottom: 2rem;
@@ -249,7 +241,7 @@ body {
 }
 
 .card h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'BBH Sans Hegarty';
     color: #007bff;
     margin-bottom: 0.5rem;
 }
@@ -260,7 +252,7 @@ body {
 }
 
 .card h4 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'BBH Sans Hegarty';
     color: #007bff;
     margin-bottom: 0.5rem;
 }
