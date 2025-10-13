@@ -1,7 +1,7 @@
 body {
-    font-family: "BBH Sans Hegarty";
+   font-family: "BBH Sans Bogle", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: normal
 }
 
 /* === NAVIGATION BAR === */
@@ -21,7 +21,7 @@ body {
     font-family: 'BBH Sans Hegarty';
     font-size: 1.5rem;
     font-weight: 700;
-    color: #007bff; /* Azul acento exato */
+    color: #ff7b00; /* Azul acento exato */
 }
 
 .menu {
@@ -37,7 +37,7 @@ body {
 }
 
 .menu a:hover {
-    color: #007bff; /* Hover azul exato */
+    color: #ff9d00; /* Hover azul exato */
 }
 
 /* === HERO SECTION=== */
@@ -74,7 +74,7 @@ body {
 
 .cta-button {
     display: inline-block;
-    background-color: #007bff;
+    background-color: hsl(36, 100%, 50%);
     color: #ffffff;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
@@ -84,7 +84,7 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #0056b3; 
+    background-color: hsl(36, 100%, 50%);
 }
 
 /* === SOBRE SECTION === */
@@ -100,7 +100,7 @@ body {
     font-family: 'BBH Sans Hegarty';
     font-size: 2.5rem;
     text-align: center;
-    color: #007bff;
+    color: hsl(36, 100%, 50%);
     margin-bottom: 2rem;
 }
 
@@ -143,7 +143,7 @@ body {
 
 .info-tecnica h3 {
     font-family: 'BBH Sans Hegarty';
-    color: #007bff;
+    color: hsl(36, 100%, 50%);
     margin-bottom: 1rem;
 }
 
@@ -169,7 +169,7 @@ body {
 .galeria-section h2 {
     font-family: 'BBH Sans Hegarty';
     font-size: 2.5rem;
-    color: #007bff;
+    color: hsl(36, 100%, 50%);
     margin-bottom: 2rem;
 }
 
@@ -206,7 +206,7 @@ body {
 .cards-section h2 {
     font-family: 'BBH Sans Hegarty';
     font-size: 2.5rem;
-    color: #007bff;
+    color: hsl(36, 100%, 50%);
     margin-bottom: 2rem;
 }
 
@@ -242,7 +242,7 @@ body {
 
 .card h3 {
     font-family: 'BBH Sans Hegarty';
-    color: #007bff;
+    color: hsl(36, 100%, 50%);
     margin-bottom: 0.5rem;
 }
 
@@ -253,7 +253,7 @@ body {
 
 .card h4 {
     font-family: 'BBH Sans Hegarty';
-    color: #007bff;
+    color: hsl(36, 100%, 50%);
     margin-bottom: 0.5rem;
 }
 
@@ -279,7 +279,7 @@ body {
 }
 
 .footer-links a:hover {
-    color: #007bff;
+    color: hsl(36, 100%, 50%);
 }
 
 .footer p {
