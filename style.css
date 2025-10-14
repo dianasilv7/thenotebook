@@ -287,13 +287,3 @@ body {
     opacity: 0.8;
 }
 
-.video-container iframe {
-  border: none; /* substitui frameborder="0" */
-  width: 100%;
-  max-width: 800px;
-  height: 450px;
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px; /* opcional: deixa o vídeo com cantos suaves */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* opcional: efeito elegante */
-}
